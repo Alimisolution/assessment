@@ -37,7 +37,7 @@ if(error) return <div className='text-center mt-14 text-2xl sm:text-4xl font-sem
 
   return (
     <div className='shadow-lg p-3 flex flex-col justify-center gap-3 md:w-[350px] mx-auto'>
-      <h2 className='mb-4 py-2 rounded-lg text-white text-center bg-blue-500 font-semibold sm:text-xl'>User Details</h2>
+      <h2 className='mb-4 py-3 rounded-lg text-white text-center bg-blue-500 font-semibold sm:text-xl text-lg'>User Details</h2>
       <p className='text-base sm:text-lg'><span className='font-semibold'>Name:</span> {user.name}</p>
       <p className='text-base sm:text-lg'><span className='font-semibold'>Username:</span> {user.username}</p>
       <p className='text-base sm:text-lg'><span className='font-semibold'>Email:</span> {user.email}</p>
