@@ -1,19 +1,56 @@
-# E-Store Web App
+# React User List App
 
-E-Store is a e-commerce platform(website) where people can buy and order for clothes, electronics and many more from online.
+This React application fetches a list of users from the JSONPlaceholder API and displays their information.
 
-# How to use this app
+## Features
+
+* Fetches user data from the JSONPlaceholder API.
+* Displays a list of users on the homepage.
+* Includes a "View Details" button for each user.
+* Displays user details (full profile) on a separate page.
+* Utilizes React Router for navigation.
+* Leverages functional components and hooks (useState, useEffect).
+* Features a clean and responsive user interface.
+
+## Getting Started
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone <repository_url>
 
 
-# HomePage
-Once the site is loaded it shows the Homepage first, in this homepage there is a header that has 2 side the logo at the left side and the navigation menu at the right side, the navigation where users can navigate between different pages which are (Home, Category, Search Category) after the header there is a section that display all the products and this section has 2 side a text at the left hand side and a selection box at the other side, the selection box where users can select any option to sort the products like (Sort by Price, Sort by ID) and more according to the users wish, each product can be click to see it full details.
+2. **Navigate to the project directory:**
+
+    cd react-user-list-app
 
 
-# Category
-In the category Section it has header that has 2 side the logo at the left side and the navigation menu at the right side, the navigation where users can navigate as between different pages as well and after there is a section that shows all the products as well and before the products there are some clickable categories tabs like All, Jewelery, Men's clothing e.t.c that can be click to filter out the products to see a desire category and the All tab to show all the categories again.
+3. **Install dependencies:**
+
+    npm install
 
 
-# Search Category 
-Lastly in the Search Category it has a header that has 2 side the logo at the left side and the navigation menu at the right side, the navigation where users can use to navigate between different pages and after this there is a section and in this section it has a text which is section header that says "Search for Product by Category using (electronics, jewelery, men's clothing, women's clothing)" and after there is a Search field where users can search a products as indicated in the above header and a Search button that can be click after you have input the category you want to see and all the products that belongs to that inputed category will be display.
+4. **Start the development server:**
 
-This website is very easy to use for non-technical users because it make use of good and simple user-interface.
+    npm run dev
+
+The application will be accessible at http://localhost:3000 in your web browser.
+
+
+
+## Usage
+
+**Homepage:**
+
+    View a list of users with their names.
+    Click the "View Details" button for a specific user to navigate to their details page.
+
+**Details Page:**
+
+    View the full profile information of the selected user.
+
+## Technologies Used
+
+**React & Vite**
+**React Router**
+**TailwindCss**
